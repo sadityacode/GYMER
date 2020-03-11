@@ -331,6 +331,92 @@ h3 + p{
 }
 /* classes section styling end */
 
+/* schedule section styling start */
+.schedule{
+  padding-top: 12.8%;
+}
+
+
+.schedule h3{
+  padding-bottom: 2.5%;
+}
+
+.schedule h3 + p {
+  width: 50%;
+  padding-bottom: 5.95%;
+}
+
+.schedule ul{
+  text-align: center;
+  padding-bottom: 4.2%;
+}
+
+.schedule ul a{
+  color: #48D494;
+  font-size: 12px;
+  text-transform: capitalize;
+  padding: 9px 9px;
+  border-radius: 3px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.schedule ul .active a,
+.schedule ul a:hover{
+  color: #FFF;
+  background-color: #48D494;
+}
+
+table{
+  color: rgba(255,255,255,0.8);
+  border-collapse: collapse;
+  width: 100%;
+  text-transform: capitalize;
+  font-size: 11px;
+}
+
+table td{
+  border: 0.5px solid rgba(255,255,255,0.8);
+  box-sizing: border-box;
+  padding: 2.2% 1.2%;
+}
+
+tr td:last-child{
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+tr td:last-child:hover{
+  background-color: #48D494;
+}
+
+tr td:last-child:hover a{
+  color: #FFF;
+}
+
+tr td:last-child a{
+  color: #48D494;
+}
+
+tr td:first-child{
+  width: 24.6%;
+}
+
+tr td:nth-child(2){
+  width: 33.3%;
+}
+
+tr td:nth-child(3){
+  width: 25%;
+}
+
+.modal{
+  display: none;
+}
+/* schedule section styling end */
+
 /*=================================
   main styling ends here
 =================================*/

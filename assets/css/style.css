@@ -108,7 +108,7 @@ li {
 /*for wrapper*/
 .wrapper {
   max-width: 1360px;
-  width: 74.7%; 
+  width: 57.7%; 
   margin: 0 auto;
 }
 
@@ -172,6 +172,8 @@ nav .active a{
   main styling starts here
 =================================*/
 
+
+/* banner section styling starts */
 .banner{
   background: url("https://via.placeholder.com/1351x681") 50% 50% no-repeat;
   background-size: cover;
@@ -182,12 +184,118 @@ h2{
   text-transform: capitalize;
   font-size: 79px;
   font-weight: 700;
-  width: 60%;
+  width: 70%;
   margin: 0 auto;
   text-align: center;
-  padding: 24.2% 0;
+  padding: 31.35% 0;
   letter-spacing: -4px;
 }
+/* banner section styling end */
+
+
+/* step-up section styling starts */
+
+.step-up{
+  color: #FFF;
+}
+
+.counters{
+  padding: 7% 0 10.5%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+}
+
+.counters figure{
+  display: inline-block;
+}
+
+.counters > li{
+  width: 22%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.counters ul{
+  width: 50%;
+  padding-left: 5%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+}
+
+.counters ul li:first-child{
+  font-size: 28px;
+  font-weight: 600;
+  padding-bottom: 4%;
+}
+
+.counters ul li:last-child{
+  display: block;
+  font-size: 10px;
+  color: rgba(255,255,255,0.4);
+  text-transform: capitalize;
+}
+
+.counters ul li:last-child span{
+  display: block;
+}
+
+h3{
+  font-size: 34px;
+  letter-spacing: -1px;
+  word-spacing: -1px;
+  font-weight: 800;
+  color: #48D494;
+  text-transform: capitalize;
+  padding-bottom: 6%;
+  line-height: 40px;
+}
+
+.step-up article{
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+}
+
+.step-up article > div{
+  width: 45%;
+  padding-top: 3.1%;
+}
+
+h3 + p{
+  font-size: 12px;
+  line-height: 20px;
+  color: rgba(255,255,255,0.4);
+  padding-bottom: 10%;
+}
+
+.step-up article > div a{
+  color: #000;
+  background-color: #48D494;
+  text-transform: uppercase;
+  font-size: 8px;
+  font-weight: 700;
+  padding: 4% 5.6%;
+  border-radius: 3px;
+}
+/* step-up section styling end */
 
 /*=================================
   main styling ends here

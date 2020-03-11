@@ -118,6 +118,7 @@ li {
 =================================*/
 .container{
   position: relative;
+  background-color: #000;
 }
 
 header{
@@ -174,7 +175,18 @@ nav .active a{
 .banner{
   background: url("https://via.placeholder.com/1351x681") 50% 50% no-repeat;
   background-size: cover;
-  padding: 10% 0;
+}
+
+h2{
+  color: #FFF;
+  text-transform: capitalize;
+  font-size: 79px;
+  font-weight: 700;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 24.2% 0;
+  letter-spacing: -4px;
 }
 
 /*=================================

@@ -108,7 +108,7 @@ li {
 /*for wrapper*/
 .wrapper {
   max-width: 1360px;
-  width: 57.7%; 
+  width: 57.8%; 
   margin: 0 auto;
 }
 
@@ -263,8 +263,11 @@ h3{
   font-weight: 800;
   color: #48D494;
   text-transform: capitalize;
-  padding-bottom: 6%;
+}
+
+.step-up h3{
   line-height: 40px;
+  padding-bottom: 6%;
 }
 
 .step-up article{
@@ -296,6 +299,37 @@ h3 + p{
   border-radius: 3px;
 }
 /* step-up section styling end */
+
+/* classes section styling starts */
+
+.classes{
+  padding-top: 9.1%;
+}
+.classes h3{
+  padding-bottom: 2.5%;
+}
+
+.classes h3 + p{
+  width: 50%;
+  padding-bottom: 5.7%;
+}
+
+.classes-slider{
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+
+.classes-slider li{
+  min-width: 25%;
+}
+/* classes section styling end */
 
 /*=================================
   main styling ends here

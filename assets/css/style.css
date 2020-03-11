@@ -88,8 +88,8 @@ sub { bottom: -.25em; }
 /*for all*/
 body {
   box-sizing: border-box;
-  /* font-family: 'Montserrat'; */
-  font-family: 'Roboto';
+  font-family: 'Montserrat';
+  /* font-family: 'Roboto'; */
   /* background-image: -webkit-gradient(linear, left top, right top, from(#004445) , color-stop(#2C786C) ,	to(#31AA6D));
   background-image: linear-gradient(to right, #004445 , #2C786C ,	#31AA6D); */
   /* background-color: #000; */
@@ -116,7 +116,53 @@ li {
 /*=================================
   Header styling starts here
 =================================*/
+.container{
+  position: relative;
+}
 
+header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1% 0;
+}
+
+header .wrapper{
+  width: 90%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+}
+
+nav a{
+  color: #FFF;
+  text-transform: capitalize;
+  font-size: 11px;
+  padding: 5px 0;
+  margin: 0 14px;
+}
+
+nav .active a{
+  border-bottom: 1px solid #FFF;
+}
+
+.hamburger{
+  display: none;
+}
+
+.contact-button{
+  color: #48D494;
+  text-transform: uppercase;
+  font-size: 9px;
+  padding: 7px 14px;
+  border: 1px solid #48D494;
+  border-radius: 4px;
+  margin: 0 3%;
+}
 /*=================================
   Header styling ends here
 =================================*/  
@@ -125,6 +171,11 @@ li {
   main styling starts here
 =================================*/
 
+.banner{
+  background: url("https://via.placeholder.com/1351x681") 50% 50% no-repeat;
+  background-size: cover;
+  padding: 10% 0;
+}
 
 /*=================================
   main styling ends here

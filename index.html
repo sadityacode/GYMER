@@ -1,7 +1,7 @@
 <!doctype html>
 
 <!-- If multi-language site, reconsider usage of html lang declaration here. -->
-<html lang="en"> 
+<html lang="zxx"> 
 
 <head>
  
@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" media="screen" href="assets/css/style.css" >
+  <link rel="stylesheet" media="screen" href="assets/css/style.css">
 </head>
 
 <body>
@@ -193,6 +193,32 @@
               <td><a href="#FIXME" class="join-session">join now</a></td>
             </tr>
           </table>
+
+          <div class="modal">
+            <form>
+              <div class="form-group">
+                <div class="validate">
+                  <input placeholder="First name" class="first-name" type="text" data-value="firstname">
+                  <span>name must be in between 2-10 characters and it should not contain any numbers</span>
+                </div>
+
+                <div class="validate">
+                  <input placeholder="Email" class="email" type="text" data-value="email">
+                  <span>please enter the valid email id</span>
+                </div>
+
+                <div class="validate">
+                  <input placeholder="Contact number" class="contact-number" type="text" data-value="contactnumber">
+                  <span>please enter the valid mobile number</span>
+                </div>
+              </div>
+
+              <div class="form-controls">
+                <button class="join-now">join now</button>
+                <a href="#FIXME" class="cancel">cancel form</a>
+              </div>
+            </form>
+          </div>
         </div>
       </section>
 
@@ -329,10 +355,12 @@
             <ul class="subscribe">
               <li>subscribe</li>
               <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, explicabo ab libero harum impedit vero.</p></li>
-              <form>
-                <input type="text" placeholder="Email" class="email-subscriber">
-                <button title="subscribe">subscribe</button>
-              </form>
+              <li>
+                <form>
+                  <input type="text" placeholder="Email" class="email-subscriber">
+                  <button title="subscribe">subscribe</button>
+                </form>
+              </li>
             </ul>
           </li>
         </ul>

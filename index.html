@@ -13,6 +13,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" media="screen" href="assets/css/slick-theme.css" >
+  <link rel="stylesheet" media="screen" href="assets/css/slick.css" >
   <link rel="stylesheet" media="screen" href="assets/css/style.css">
 </head>
 
@@ -76,7 +78,7 @@
             <li>
               <figure><img src="https://via.placeholder.com/40x40" alt="Members"></figure>
               <ul>
-                <li><span class="counter" data-target="2260" data-current="0">2260</span></li>
+                <li><span class="counter" data-target="2260" data-current="0">0</span></li>
                 <li><span class="counter-text">members</span></li>
               </ul>
             </li>
@@ -84,7 +86,7 @@
             <li>
               <figure><img src="https://via.placeholder.com/40x40" alt="Members"></figure>
               <ul>
-                <li><span class="counter" data-target="210" data-current="0">210</span></li>
+                <li><span class="counter" data-target="210" data-current="0">0</span></li>
                 <li><span class="counter-text">daily visitors</span></li>
               </ul>              
             </li>
@@ -92,7 +94,7 @@
             <li>
               <figure><img src="https://via.placeholder.com/40x40" alt="Members"></figure>
               <ul>
-                <li><span class="counter" data-target="887" data-current="0">887</span></li>
+                <li><span class="counter" data-target="887" data-current="0">0</span></li>
                 <li><span class="counter-text">health program</span></li>
               </ul>              
             </li>
@@ -100,7 +102,7 @@
             <li>
               <figure><img src="https://via.placeholder.com/40x40" alt="Members"></figure>
               <ul>
-                <li><span class="counter" data-target="1920" data-current="0">1920</span></li>
+                <li><span class="counter" data-target="1920" data-current="0">0</span></li>
                 <li><span class="counter-text">heart beat</span></li>
               </ul>
             </li>
@@ -153,56 +155,56 @@
 
           <ul>
             <li class="active">
-              <a href="#FIXME" title="Monday">monday</a>
+              <a href="#FIXME" title="Monday" data-day="monday">monday</a>
             </li>
             <li>
-              <a href="#FIXME" title="Monday">tuesday</a>
+              <a href="#FIXME" title="Monday" data-day="tuesday">tuesday</a>
             </li>
             <li>
-              <a href="#FIXME" title="Monday">wednesday</a>
+              <a href="#FIXME" title="Monday" data-day="wednesday">wednesday</a>
             </li>
             <li>
-              <a href="#FIXME" title="Monday">thursday</a>
+              <a href="#FIXME" title="Monday" data-day="thursday">thursday</a>
             </li>
             <li>
-              <a href="#FIXME" title="Monday">friday</a>
+              <a href="#FIXME" title="Monday" data-day="friday">friday</a>
             </li>
             <li>
-              <a href="#FIXME" title="Monday">sunday</a>
+              <a href="#FIXME" title="Monday" data-day="sunday">sunday</a>
             </li>
           </ul>
 
           <table>
             <tr>
-              <td>gym</td>
+              <td data-session = "gym">gym</td>
               <td>8:00am - 10:00am</td>
               <td>john doe</td>
               <td><a href="#FIXME" class="join-session">join now</a></td>
             </tr>
 
             <tr>
-              <td>meditation</td>
+              <td data-session = "meditation">meditation</td>
               <td>10:00am - 10:30am</td>
               <td>james holmes</td>
               <td><a href="#FIXME" class="join-session">join now</a></td>
             </tr>
 
             <tr>
-              <td>weight lifting</td>
+              <td data-session = "lifting">weight lifting</td>
               <td>1:00pm - 2:30pm</td>
               <td>ben smith</td>
               <td><a href="#FIXME" class="join-session">join now</a></td>
             </tr>
 
             <tr>
-              <td>crossfit</td>
+              <td data-session = "crossfit">crossfit</td>
               <td>3:00pm - 3:45pm</td>
               <td>craig peters</td>
               <td><a href="#FIXME" class="join-session">join now</a></td>
             </tr>
 
             <tr>
-              <td>aerobics</td>
+              <td data-session = "aerobics">aerobics</td>
               <td>5:00pm - 5:30pm</td>
               <td>paul green</td>
               <td><a href="#FIXME" class="join-session">join now</a></td>
@@ -369,7 +371,7 @@
               <li>subscribe</li>
               <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, explicabo ab libero harum impedit vero.</p></li>
               <li>
-                <form>
+                <form class="validate">
                   <input type="text" placeholder="Email" class="email-subscriber">
                   <span>please enter the valid email id</span>
                   <button title="subscribe">subscribe</button>
@@ -390,6 +392,7 @@
   src="https://code.jquery.com/jquery-3.4.1.js"
   integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
   crossorigin="anonymous"></script>
+<script src="assets/js/slick.js"></script>
 <script src="assets/js/script.js"></script>
 </body>
 </html>

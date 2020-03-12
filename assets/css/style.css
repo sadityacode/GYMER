@@ -193,7 +193,7 @@ h2{
   text-transform: capitalize;
   font-size: 79px;
   font-weight: 700;
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   text-align: center;
   padding: 31.3% 0;
@@ -212,6 +212,7 @@ h2{
   padding: 7% 0 10.5%;
   display: -webkit-box;
   display: flex;
+  flex-wrap: wrap;
   -webkit-box-align: center;
           align-items: center;
   -webkit-box-orient: horizontal;
@@ -283,6 +284,7 @@ h3{
   display: flex;
   -webkit-box-pack: justify;
           justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .step-up article > div{
@@ -311,6 +313,10 @@ h3 + p{
 
 .step-up article > div a:hover{
   color: #FFF;
+}
+
+.step-up article figure img{
+  box-shadow: 7px 7px #48D494;
 }
 /* step-up section styling end */
 
@@ -452,6 +458,7 @@ tr td:nth-child(3){
   -webkit-box-pack: justify;
           justify-content: space-between;
   color: #FFF;
+  flex-wrap: wrap;
 }
 
 .trainers ul li{
@@ -460,6 +467,10 @@ tr td:nth-child(3){
 
 .trainers ul figure{
   padding-bottom: 15.5%;
+}
+
+.trainers ul figure img{
+  box-shadow: 7px 7px #48D494;
 }
 
 h4{
@@ -722,7 +733,130 @@ footer span{
 
 /*media query starts*/
 /*media query for 995px starts here*/
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 1024px) {
+  
+  h2{
+    width: 100%;
+  }
+
+  .counters > li{
+    width: 25%;
+  }
+
+  .counters ul{
+    width: 65%;
+  }
+
+  .counters ul li:first-child{
+    font-size: 15px;
+  }
+
+  .step-up article > div{
+    width: 45%;
+  }
+
+  .step-up article figure{
+    width: 50%;
+  }
+
+  footer form input{
+    width: 65%;
+  }
+
+  footer form button{
+    width: 35%;
+  }
+
+}
 
 
-}  
+@media only screen and (max-width: 768px){
+  .wrapper {
+    width: 85%;
+  }
+
+  nav a{
+    margin: 0 7px;
+  }
+}
+
+@media only screen and (max-width: 540px){
+
+  .navbar ,
+  .contact-button{
+    display: none;
+  }
+
+  .hamburger{
+    display: block;
+    width: 35px;
+    height: 30px;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    padding: 20%;
+    border: 1px solid #FFF;
+    border-bottom-left-radius: 7px;
+    border-top-right-radius: 7px;
+  }
+
+  .hamburger span{
+    text-indent: -9999px;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+  }
+
+  h2{
+    font-size: 50px;
+  }
+  .counters > li{
+    width: 50%;
+    padding-bottom: 2%;
+  }
+
+  .step-up article > div{
+    width: 100%;
+    padding-bottom: 2%;
+  }
+
+  .step-up article > figure{
+    width: 100%;
+  }
+
+  .trainers h3 + p{
+    width: 100%;
+  }
+
+  .trainers ul li{
+    width: 51%;
+    margin: 0 auto;
+  }
+
+  .services h3,
+  .services h3 + p,
+  .classes h3 + p,
+  .schedule h3 + p{
+    width: 100%;
+  }
+
+  .contact{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .about-gymer,
+  .subscribe,
+  .links{
+    width: 100%;
+    padding-bottom: 5%;
+  }
+}

@@ -8,7 +8,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>TEXT TEST | JS</title>
+  <title>HOME | GYMER</title>
   <link rel="shortcut icon" href="favicon.ico" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
@@ -24,10 +24,10 @@
       <div class="wrapper">
         <h1>
           <a href="#FIXME" title="Logo">
-            <img src="https://via.placeholder.com/140x35" alt="Logo">
+            <img src="https://via.placeholder.com/80x35/000" alt="Logo">
           </a>
         </h1>
-        <nav>
+        <nav class="">
           <div class="hamburger">
             <span>bar one</span>
             <span>bar two</span>
@@ -35,7 +35,7 @@
           </div>
 
           <ul class="navbar">
-            <li>
+            <li class="active">
               <a href="#FIXME" title="Home">home</a>
             </li>
             <li>
@@ -51,11 +51,15 @@
               <a href="#FIXME" title="Services">services</a>
             </li>
           </ul>
+
+
+          <div class="background-wall">background wall</div>
         </nav>
 
         <a href="#FIXME" title="Contact" class="contact-button">contact</a>
 
       </div>
+
     </header>
     <!--header section end-->
     <!--main section start-->
@@ -70,24 +74,35 @@
         <div class="wrapper">
           <ul class="counters">
             <li>
-              <figure><img src="https://via.placeholder.com/55x55" alt="Members"></figure>
-              <span class="counter" data-target="2260" data-current="0">0</span>
-              <span class="counter-text">members</span>
+              <figure><img src="https://via.placeholder.com/40x40" alt="Members"></figure>
+              <ul>
+                <li><span class="counter" data-target="2260" data-current="0">2260</span></li>
+                <li><span class="counter-text">members</span></li>
+              </ul>
             </li>
 
             <li>
-              <span class="counter" data-target="210" data-current="0">0</span>
-              <span class="counter-text">daily visitors</span>
+              <figure><img src="https://via.placeholder.com/40x40" alt="Members"></figure>
+              <ul>
+                <li><span class="counter" data-target="210" data-current="0">210</span></li>
+                <li><span class="counter-text">daily visitors</span></li>
+              </ul>              
             </li>
 
             <li>
-              <span class="counter" data-target="887" data-current="0">0</span>
-              <span class="counter-text">health program</span>
+              <figure><img src="https://via.placeholder.com/40x40" alt="Members"></figure>
+              <ul>
+                <li><span class="counter" data-target="887" data-current="0">887</span></li>
+                <li><span class="counter-text">health program</span></li>
+              </ul>              
             </li>
 
             <li>
-              <span class="counter" data-target="1920" data-current="0">0</span>
-              <span class="counter-text">heart beat</span>
+              <figure><img src="https://via.placeholder.com/40x40" alt="Members"></figure>
+              <ul>
+                <li><span class="counter" data-target="1920" data-current="0">1920</span></li>
+                <li><span class="counter-text">heart beat</span></li>
+              </ul>
             </li>
           </ul>
 
@@ -111,22 +126,22 @@
         </div>
         <ul class="classes-slider">
           <li>
-            <figure><img src="https://via.placeholder.com/335x421" alt="Slider Image One"></figure>
+            <figure><img src="https://via.placeholder.com/337x421" alt="Slider Image One"></figure>
           </li>
           <li>
-            <figure><img src="https://via.placeholder.com/335x421" alt="Slider Image Two"></figure>
+            <figure><img src="https://via.placeholder.com/337x421" alt="Slider Image Two"></figure>
           </li>
           <li>
-            <figure><img src="https://via.placeholder.com/335x421" alt="Slider Image Three"></figure>
+            <figure><img src="https://via.placeholder.com/337x421" alt="Slider Image Three"></figure>
           </li>
           <li>
-            <figure><img src="https://via.placeholder.com/335x421" alt="Slider Image Four"></figure>
+            <figure><img src="https://via.placeholder.com/337x421" alt="Slider Image Four"></figure>
           </li>
           <li>
-            <figure><img src="https://via.placeholder.com/335x421" alt="Slider Image Five"></figure>
+            <figure><img src="https://via.placeholder.com/337x421" alt="Slider Image Five"></figure>
           </li>
           <li>
-            <figure><img src="https://via.placeholder.com/335x421" alt="Slider Image Six"></figure>
+            <figure><img src="https://via.placeholder.com/337x421" alt="Slider Image Six"></figure>
           </li>
         </ul>
       </section>
@@ -134,10 +149,10 @@
       <section class="schedule">
         <div class="wrapper">
           <h3>schedule</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit explicabo molestias, dolores consequatur, amet dolore sit totam deleniti temporibus aliquid repudiandae placeat, eligendi inventore doloremque veritatis accusamus reprehenderit architecto modi!</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit explicabo molestias, dolores consequatur, amet dolore sit totam deleniti temporibus aliquid repudiandae placeat, eligendi inventore doloremque</p>
 
           <ul>
-            <li>
+            <li class="active">
               <a href="#FIXME" title="Monday">monday</a>
             </li>
             <li>
@@ -196,22 +211,20 @@
 
           <div class="modal">
             <form>
-              <div class="form-group">
-                <div class="validate">
+                <div class="form-group">
                   <input placeholder="First name" class="first-name" type="text" data-value="firstname">
                   <span>name must be in between 2-10 characters and it should not contain any numbers</span>
                 </div>
 
-                <div class="validate">
+                <div class="form-group">
                   <input placeholder="Email" class="email" type="text" data-value="email">
                   <span>please enter the valid email id</span>
                 </div>
 
-                <div class="validate">
+                <div class="form-group">
                   <input placeholder="Contact number" class="contact-number" type="text" data-value="contactnumber">
                   <span>please enter the valid mobile number</span>
                 </div>
-              </div>
 
               <div class="form-controls">
                 <button class="join-now">join now</button>
@@ -232,21 +245,21 @@
               <figure><img src="https://via.placeholder.com/228x228" alt="Trainer Image"></figure>
               <h4>james holmes</h4>
               <span>aerobatics trainer</span>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut exercitationem fugiat eum tenetur repellendus cumque at nostrum saepe debitis unde.</p>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut exercitationem fugiat eum tenetur repellendus cumque.</p>
             </li>
 
             <li>
               <figure><img src="https://via.placeholder.com/228x228" alt="Trainer Image"></figure>
               <h4>kelly green</h4>
               <span>aerobatics trainer</span>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut exercitationem fugiat eum tenetur repellendus cumque at nostrum saepe debitis unde.</p>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut exercitationem fugiat eum tenetur repellendus cumque.</p>
             </li>
 
             <li>
               <figure><img src="https://via.placeholder.com/228x228" alt="Trainer Image"></figure>
               <h4>ben smith</h4>
               <span>aerobatics trainer</span>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut exercitationem fugiat eum tenetur repellendus cumque at nostrum saepe debitis unde.</p>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut exercitationem fugiat eum tenetur repellendus cumque.</p>
             </li>
           </ul>
         </div>
@@ -276,7 +289,7 @@
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt, itaque? Dolore est ab culpa quaerat soluta.</p>
             </li>
 
-            <li>
+            <!-- <li>
               <figure><img src="https://via.placeholder.com/70x70" alt="Crossfit"></figure>
               <h4>crossfit</h4>
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt, itaque? Dolore est ab culpa quaerat soluta.</p>
@@ -286,7 +299,7 @@
               <figure><img src="https://via.placeholder.com/70x70" alt="Crossfit"></figure>
               <h4>crossfit</h4>
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt, itaque? Dolore est ab culpa quaerat soluta.</p>
-            </li>
+            </li> -->
           </ul>
         </div>
       </section>
@@ -332,16 +345,16 @@
     <footer>
       <div class="wrapper">
         <ul>
-          <li>
-            <ul class="about-gymer">
+          <li  class="about-gymer">
+            <ul>
               <li>about gymer</li>
-              <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae aspernatur dolore dolorum esse cumque nemo ipsam explicabo facere quaerat ullam necessitatibus, id doloribus sapiente sequi delectus? Eos, dicta voluptates! Id.</p></li>
+              <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae aspernatur dolore dolorum esse cumque nemo ipsam explicabo facere quaerat ullam necessitatibus.</p></li>
             </ul>
           </li>
 
 
-          <li>
-            <ul class="links">
+          <li  class="links">
+            <ul>
               <li>links</li>
               <li><a href="#FIXME" title="Home">home</a></li>
               <li><a href="#FIXME" title="Meditation">meditation</a></li>
@@ -351,13 +364,14 @@
           </li>
 
 
-          <li>
-            <ul class="subscribe">
+          <li  class="subscribe">
+            <ul>
               <li>subscribe</li>
               <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, explicabo ab libero harum impedit vero.</p></li>
               <li>
                 <form>
                   <input type="text" placeholder="Email" class="email-subscriber">
+                  <span>please enter the valid email id</span>
                   <button title="subscribe">subscribe</button>
                 </form>
               </li>
@@ -372,6 +386,10 @@
   </div>
   <!--container end-->
 
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
 <script src="assets/js/script.js"></script>
 </body>
 </html>

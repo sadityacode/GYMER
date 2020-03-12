@@ -145,9 +145,11 @@ nav a{
   font-size: 11px;
   padding: 5px 0;
   margin: 0 14px;
+  box-sizing: border-box;
 }
 
-nav .active a{
+nav .active a,
+nav a:hover{
   border-bottom: 1px solid #FFF;
 }
 
@@ -163,6 +165,13 @@ nav .active a{
   border: 1px solid #48D494;
   border-radius: 4px;
   margin: 0 3%;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.contact-button:hover{
+  background-color: #48D494;
+  color: #FFF;
 }
 /*=================================
   Header styling ends here
@@ -296,6 +305,12 @@ h3 + p{
   font-weight: 700;
   padding: 4.5% 6.1%;
   border-radius: 3px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.step-up article > div a:hover{
+  color: #FFF;
 }
 /* step-up section styling end */
 
@@ -555,6 +570,7 @@ form input{
   box-sizing: border-box;
   margin-bottom: 11px;
   padding: 0 2%;
+  color: #FFF;
 }
 
 form .validate:first-child,
@@ -592,6 +608,12 @@ form button{
   font-weight: 700;
   padding: 3.4% 16.7%;
   border-radius: 3px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+form button:hover{
+  color: #FFF;
 }
 /* contact section styling end */
 
@@ -605,7 +627,90 @@ form button{
   footer styling starts here
 =================================*/ 
 
+footer{
+  color: #FFF;
+  padding: 6.2% 0 7.3%;
+}
 
+footer li{
+  display: block;
+  font-size: 11px;
+  line-height: 20px;
+  color: rgba(255,255,255,0.4);
+}
+
+footer .wrapper > ul{
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 15.45%;
+}
+
+.about-gymer,
+.subscribe{
+  width: 31.5%;
+}
+
+.links{
+  width: 15%;
+}
+
+.about-gymer li:first-of-type,
+.subscribe li:first-of-type,
+.links li:first-of-type {
+  color: #FFF;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 10px;
+  padding-bottom: 12px;
+}
+
+.links li{
+  padding-bottom: 5%;
+}
+
+.links a{
+  color: #48D494;
+  text-transform: capitalize;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.links a:hover{
+  border-bottom: 0.5px solid #48D494;
+}
+
+footer form{
+  padding-top: 3.5%;
+}
+
+footer form input{
+  width: 72%;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+footer form button{
+  width: 28%;
+  min-height: 31px;
+  float: right;
+  padding: 0;
+  box-sizing: border-box;
+  border-radius: 0;
+}
+
+footer span{
+  display: block;
+  font-size: 11px;
+  line-height: 20px;
+  color: rgba(255,255,255,0.4);
+  text-align: center;
+}
 
 
 

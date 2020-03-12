@@ -1,0 +1,169 @@
+[
+  {
+    "day": "monday",
+    "gym": {
+      "time" : "8:00am - 10:00am",
+      "trainer": "james holmes"
+    },
+
+    "meditation": {
+      "time" : "8:00am - 10:00am",
+      "trainer": "Ben Smith"
+    },
+
+    "lifting": {
+      "time" : "8:00am - 10:00am",
+      "trainer": "John Doe"
+    },
+
+    "crossfit": {
+      "time" : "8:00am - 10:00am",
+      "trainer": "Paul Green"
+    },
+
+    "aerobics": {
+      "time" : "8:00am - 10:00am",
+      "trainer": "Craig Peters"
+    }
+  },
+
+  {
+    "day": "tuesday",
+    "gym": {
+      "time" : "8:30am - 10:30am",
+      "trainer": "james holmes"
+    },
+
+    "meditation": {
+      "time" : "10:30am - 12:00am",
+      "trainer": "Craig Peters"
+    },
+
+    "lifting": {
+      "time" : "12:00am - 2:00am",
+      "trainer": "james holmes"
+    },
+
+    "crossfit": {
+      "time" : "2:00am - 3:00am",
+      "trainer": "Ben Smith"
+    },
+
+    "aerobics": {
+      "time" : "3:00am - 5:00am",
+      "trainer": "james holmes"
+    }
+  },
+
+  {
+    "day": "wednesday",
+    "gym": {
+      "time" : "9:00am - 11:00am",
+      "trainer": "Craig Peters"
+    },
+
+    "meditation": {
+      "time" : "11:00am - 1:00am",
+      "trainer": "james holmes"
+    },
+
+    "lifting": {
+      "time" : "1:00am - 3:00am",
+      "trainer": "james holmes"
+    },
+
+    "crossfit": {
+      "time" : "3:00am - 4:00am",
+      "trainer": "james holmes"
+    },
+
+    "aerobics": {
+      "time" : "4:00am - 5:00am",
+      "trainer": "Ben Smith"
+    }
+  },
+
+  {
+    "day": "thursday",
+    "gym": {
+      "time" : "8:15am - 10:15am",
+      "trainer": "james holmes"
+    },
+
+    "meditation": {
+      "time" : "10:15am - 12:15am",
+      "trainer": "Ben Smith"
+    },
+
+    "lifting": {
+      "time" : "8:00am - 10:00am",
+      "trainer": "Craig Peters"
+    },
+
+    "crossfit": {
+      "time" : "8:00am - 10:00am",
+      "trainer": "james holmes"
+    },
+
+    "aerobics": {
+      "time" : "8:00am - 10:00am",
+      "trainer": "james holmes"
+    }
+  },
+
+  {
+    "day": "friday",
+    "gym": {
+      "time" : "8:00am - 10:00am",
+      "trainer": "james holmes"
+    },
+
+    "meditation": {
+      "time" : "8:00am - 10:00am",
+      "trainer": "james holmes"
+    },
+
+    "lifting": {
+      "time" : "8:00am - 10:00am",
+      "trainer": "Ben Smiths"
+    },
+
+    "crossfit": {
+      "time" : "8:00am - 10:00am",
+      "trainer": "Craig Peters"
+    },
+
+    "aerobics": {
+      "time" : "8:00am - 10:00am",
+      "trainer": "james holmes"
+    }
+  },
+
+  {
+    "day": "sunday",
+    "gym": {
+      "time" : "8:00am - 10:00am",
+      "trainer": "Ben Smith"
+    },
+
+    "meditation": {
+      "time" : "8:00am - 10:00am",
+      "trainer": "james holmes"
+    },
+
+    "lifting": {
+      "time" : "8:00am - 10:00am",
+      "trainer": "james holmes"
+    },
+
+    "crossfit": {
+      "time" : "8:00am - 10:00am",
+      "trainer": "Craig Peters"
+    },
+
+    "aerobics": {
+      "time" : "8:00am - 10:00am",
+      "trainer": "james holmes"
+    }
+  }
+]

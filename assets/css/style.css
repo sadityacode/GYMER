@@ -1,4 +1,3 @@
-
 @charset "utf-8";
 @font-face {
   src: url(../fonts/Brusher.ttf);
@@ -974,13 +973,53 @@ footer span{
 
 @media only screen and (max-width: 540px){
 
-  .navbar ,
+
   .contact-button{
     display: none;
     visibility: hidden;
   }
 
-  .background-wall{
+  .navbar{    
+    position: fixed;
+    z-index: 0;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 20%;
+    background-color: #FFF;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    -webkit-clip-path: circle(13% at 97% -2%);
+            clip-path: circle(4% at  90.2% 3.4%);
+  }
+
+  .active .navbar{
+    -webkit-clip-path: circle(75% at 97% -2%);
+            clip-path: circle(115% at  90.2% 3.4%);
+  }
+
+  .navbar li{
+    display: block;
+    text-align: center;
+    opacity: 0;
+    -webkit-transition-delay: 1s;
+            transition-delay: 1s;
+    -webkit-transition: all 0.3s 1s ease-in-out;
+    -webkit-transition: all 0.5s 1s ease-in-out;
+    transition: all 0.5s 1s ease-in-out;
+  }
+
+  .active .navbar li{
+    opacity: 1;
+  }
+
+  .navbar a{
+    color: #000;
+  }
+
+  /* .background-wall{
     display: block;
     min-width: 0px;
     min-height: 0px;
@@ -997,13 +1036,13 @@ footer span{
     -webkit-transition: 7s ease-in-out;
     transition: 0.7s ease-in-out;
     visibility: hidden;
-  }
+  } */
 
-  .active .background-wall{
+  /* .active .background-wall{
     min-width: 1150px;
     min-height: 1150px;
     visibility: visible;
-  }
+  } */
 
   
   .hamburger{
@@ -1027,7 +1066,7 @@ footer span{
     border-top-right-radius: 7px;
   }
 
-  .active .navbar,
+  /* .active .navbar,
   .active-contact-button{  
     display: block;
     position: fixed;
@@ -1080,7 +1119,7 @@ footer span{
       opacity: 1;
       visibility: visible;
     }
-  }
+  } */
 
 
 
@@ -1089,7 +1128,7 @@ footer span{
     display: block;
     width: 100%;
     height: 2px;
-    background-color: #fff;
+    background-color: #000;
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
   }
